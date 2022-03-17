@@ -13,7 +13,7 @@ OBJS =
 
 submit:
 	git add *
-	git commit --allow-empty
+	git commit --allow-empty -m "newer"
 	git push hcs2022 master
 
 
